@@ -10,11 +10,14 @@ Gem::Specification.new do |s|
   s.license     = 'MIT'
 
   s.add_runtime_dependency "cucumber"
+  s.add_runtime_dependency "rspec"
   s.add_runtime_dependency "json"
+  s.add_runtime_dependency "xcodeproj"
 
   s.add_development_dependency "rake"
   s.add_development_dependency "bundler"
   s.add_development_dependency "geminabox"
   s.add_development_dependency "cucumber"
+  s.add_development_dependency "rspec"
 
 end

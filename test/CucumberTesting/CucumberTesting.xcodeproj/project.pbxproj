@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D608DE320E1379A00C90B15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D608DE220E1379A00C90B15 /* AppDelegate.swift */; };
+		3D608DE520E1379A00C90B15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D608DE420E1379A00C90B15 /* ViewController.swift */; };
+		3D608DE720E1379A00C90B15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D608DE620E1379A00C90B15 /* Assets.xcassets */; };
+		3D608DEA20E1379A00C90B15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D608DE820E1379A00C90B15 /* Main.storyboard */; };
+		3D608DF620E1379B00C90B15 /* CucumberTestingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D608DF520E1379B00C90B15 /* CucumberTestingTests.swift */; };
+		3D608E0120E1379B00C90B15 /* CucumberTestingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D608E0020E1379B00C90B15 /* CucumberTestingUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D608DF220E1379B00C90B15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D608DD720E1379A00C90B15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D608DDE20E1379A00C90B15;
+			remoteInfo = CucumberTesting;
+		};
+		3D608DFD20E1379B00C90B15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D608DD720E1379A00C90B15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D608DDE20E1379A00C90B15;
+			remoteInfo = CucumberTesting;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D608DDF20E1379A00C90B15 /* CucumberTesting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CucumberTesting.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D608DE220E1379A00C90B15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3D608DE420E1379A00C90B15 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3D608DE620E1379A00C90B15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D608DE920E1379A00C90B15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D608DEB20E1379A00C90B15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D608DEC20E1379A00C90B15 /* CucumberTesting.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CucumberTesting.entitlements; sourceTree = "<group>"; };
+		3D608DF120E1379B00C90B15 /* CucumberTestingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CucumberTestingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D608DF520E1379B00C90B15 /* CucumberTestingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CucumberTestingTests.swift; sourceTree = "<group>"; };
+		3D608DF720E1379B00C90B15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D608DFC20E1379B00C90B15 /* CucumberTestingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CucumberTestingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D608E0020E1379B00C90B15 /* CucumberTestingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CucumberTestingUITests.swift; sourceTree = "<group>"; };
+		3D608E0220E1379B00C90B15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D608DDC20E1379A00C90B15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D608DEE20E1379B00C90B15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D608DF920E1379B00C90B15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D608DD620E1379A00C90B15 = {
+			isa = PBXGroup;
+			children = (
+				3D608DE120E1379A00C90B15 /* CucumberTesting */,
+				3D608DF420E1379B00C90B15 /* CucumberTestingTests */,
+				3D608DFF20E1379B00C90B15 /* CucumberTestingUITests */,
+				3D608DE020E1379A00C90B15 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D608DE020E1379A00C90B15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D608DDF20E1379A00C90B15 /* CucumberTesting.app */,
+				3D608DF120E1379B00C90B15 /* CucumberTestingTests.xctest */,
+				3D608DFC20E1379B00C90B15 /* CucumberTestingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D608DE120E1379A00C90B15 /* CucumberTesting */ = {
+			isa = PBXGroup;
+			children = (
+				3D608DE220E1379A00C90B15 /* AppDelegate.swift */,
+				3D608DE420E1379A00C90B15 /* ViewController.swift */,
+				3D608DE620E1379A00C90B15 /* Assets.xcassets */,
+				3D608DE820E1379A00C90B15 /* Main.storyboard */,
+				3D608DEB20E1379A00C90B15 /* Info.plist */,
+				3D608DEC20E1379A00C90B15 /* CucumberTesting.entitlements */,
+			);
+			path = CucumberTesting;
+			sourceTree = "<group>";
+		};
+		3D608DF420E1379B00C90B15 /* CucumberTestingTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D608DF520E1379B00C90B15 /* CucumberTestingTests.swift */,
+				3D608DF720E1379B00C90B15 /* Info.plist */,
+			);
+			path = CucumberTestingTests;
+			sourceTree = "<group>";
+		};
+		3D608DFF20E1379B00C90B15 /* CucumberTestingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3D608E0020E1379B00C90B15 /* CucumberTestingUITests.swift */,
+				3D608E0220E1379B00C90B15 /* Info.plist */,
+			);
+			path = CucumberTestingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D608DDE20E1379A00C90B15 /* CucumberTesting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D608E0520E1379B00C90B15 /* Build configuration list for PBXNativeTarget "CucumberTesting" */;
+			buildPhases = (
+				3D608DDB20E1379A00C90B15 /* Sources */,
+				3D608DDC20E1379A00C90B15 /* Frameworks */,
+				3D608DDD20E1379A00C90B15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CucumberTesting;
+			productName = CucumberTesting;
+			productReference = 3D608DDF20E1379A00C90B15 /* CucumberTesting.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D608DF020E1379B00C90B15 /* CucumberTestingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D608E0820E1379B00C90B15 /* Build configuration list for PBXNativeTarget "CucumberTestingTests" */;
+			buildPhases = (
+				3D608DED20E1379B00C90B15 /* Sources */,
+				3D608DEE20E1379B00C90B15 /* Frameworks */,
+				3D608DEF20E1379B00C90B15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D608DF320E1379B00C90B15 /* PBXTargetDependency */,
+			);
+			name = CucumberTestingTests;
+			productName = CucumberTestingTests;
+			productReference = 3D608DF120E1379B00C90B15 /* CucumberTestingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3D608DFB20E1379B00C90B15 /* CucumberTestingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D608E0B20E1379B00C90B15 /* Build configuration list for PBXNativeTarget "CucumberTestingUITests" */;
+			buildPhases = (
+				3D608DF820E1379B00C90B15 /* Sources */,
+				3D608DF920E1379B00C90B15 /* Frameworks */,
+				3D608DFA20E1379B00C90B15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D608DFE20E1379B00C90B15 /* PBXTargetDependency */,
+			);
+			name = CucumberTestingUITests;
+			productName = CucumberTestingUITests;
+			productReference = 3D608DFC20E1379B00C90B15 /* CucumberTestingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D608DD720E1379A00C90B15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Sean O'Donnell";
+				TargetAttributes = {
+					3D608DDE20E1379A00C90B15 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					3D608DF020E1379B00C90B15 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3D608DDE20E1379A00C90B15;
+					};
+					3D608DFB20E1379B00C90B15 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3D608DDE20E1379A00C90B15;
+					};
+				};
+			};
+			buildConfigurationList = 3D608DDA20E1379A00C90B15 /* Build configuration list for PBXProject "CucumberTesting" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D608DD620E1379A00C90B15;
+			productRefGroup = 3D608DE020E1379A00C90B15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D608DDE20E1379A00C90B15 /* CucumberTesting */,
+				3D608DF020E1379B00C90B15 /* CucumberTestingTests */,
+				3D608DFB20E1379B00C90B15 /* CucumberTestingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D608DDD20E1379A00C90B15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D608DE720E1379A00C90B15 /* Assets.xcassets in Resources */,
+				3D608DEA20E1379A00C90B15 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D608DEF20E1379B00C90B15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D608DFA20E1379B00C90B15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D608DDB20E1379A00C90B15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D608DE520E1379A00C90B15 /* ViewController.swift in Sources */,
+				3D608DE320E1379A00C90B15 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D608DED20E1379B00C90B15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D608DF620E1379B00C90B15 /* CucumberTestingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D608DF820E1379B00C90B15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D608E0120E1379B00C90B15 /* CucumberTestingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D608DF320E1379B00C90B15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D608DDE20E1379A00C90B15 /* CucumberTesting */;
+			targetProxy = 3D608DF220E1379B00C90B15 /* PBXContainerItemProxy */;
+		};
+		3D608DFE20E1379B00C90B15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D608DDE20E1379A00C90B15 /* CucumberTesting */;
+			targetProxy = 3D608DFD20E1379B00C90B15 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D608DE820E1379A00C90B15 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D608DE920E1379A00C90B15 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D608E0320E1379B00C90B15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3D608E0420E1379B00C90B15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		3D608E0620E1379B00C90B15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CucumberTesting/CucumberTesting.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CucumberTesting/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = spod823.CucumberTesting;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		3D608E0720E1379B00C90B15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CucumberTesting/CucumberTesting.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CucumberTesting/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = spod823.CucumberTesting;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		3D608E0920E1379B00C90B15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CucumberTestingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = spod823.CucumberTestingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CucumberTesting.app/Contents/MacOS/CucumberTesting";
+			};
+			name = Debug;
+		};
+		3D608E0A20E1379B00C90B15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CucumberTestingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = spod823.CucumberTestingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CucumberTesting.app/Contents/MacOS/CucumberTesting";
+			};
+			name = Release;
+		};
+		3D608E0C20E1379B00C90B15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CucumberTestingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = spod823.CucumberTestingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = CucumberTesting;
+			};
+			name = Debug;
+		};
+		3D608E0D20E1379B00C90B15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CucumberTestingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = spod823.CucumberTestingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = CucumberTesting;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D608DDA20E1379A00C90B15 /* Build configuration list for PBXProject "CucumberTesting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D608E0320E1379B00C90B15 /* Debug */,
+				3D608E0420E1379B00C90B15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D608E0520E1379B00C90B15 /* Build configuration list for PBXNativeTarget "CucumberTesting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D608E0620E1379B00C90B15 /* Debug */,
+				3D608E0720E1379B00C90B15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D608E0820E1379B00C90B15 /* Build configuration list for PBXNativeTarget "CucumberTestingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D608E0920E1379B00C90B15 /* Debug */,
+				3D608E0A20E1379B00C90B15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D608E0B20E1379B00C90B15 /* Build configuration list for PBXNativeTarget "CucumberTestingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D608E0C20E1379B00C90B15 /* Debug */,
+				3D608E0D20E1379B00C90B15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D608DD720E1379A00C90B15 /* Project object */;
+}

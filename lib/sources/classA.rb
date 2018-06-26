@@ -15,9 +15,9 @@ class ClassA
 
   def loadVals(fName)
     @dictionary = JSON.parse File.read fName
-    @x = @dictionary[:x]
-    @y = @dictionary[:y]
-    @z = @dictionary[:z]
+    @x = @dictionary["x"]
+    @y = @dictionary["y"]
+    @z = @dictionary["z"]
   end
 
   def printVals
